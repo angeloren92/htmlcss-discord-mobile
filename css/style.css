@@ -53,10 +53,12 @@ header{
     font-size: 1.2rem;
 }
 .download {
-
+    color: black;
 }
 .browser {
     background-color: rgb(110, 110, 238);
     color: white;
 }
-
+.bi {
+    padding: 5px;
+}
