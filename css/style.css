@@ -11,26 +11,25 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
+    padding-top: 268px;
 }
 header{
-    height: 268px;
     background-image: url(../img/banner.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-size: contain;
-    position: sticky;
+    height: 268px;
+    position: fixed;
+    width: 100%;
     top: 0;
-    bottom: 0;
     z-index: 1;
 }
 /* main box */
 .box {
-    margin: 60px auto;
+    margin: 60px auto 60px auto;
     width: 95%;
-    border-radius: 20px;
     background-color: rgba(91, 92, 202, 0);
     text-align: center;
-    
 }
 .box-bgpurple {
     background-color: rgba(124, 116, 247, 0.781);
@@ -55,10 +54,9 @@ header{
 }
 /* Buttons */
 .butt {
-    display: block;
     margin: 15px auto;
     width: 90%;
-    border: 0 none transparent;
+    border: 1px solid transparent;
     border-radius: 20px;
     padding: 20px;
     font-family: "DM Sans", sans-serif;
@@ -73,10 +71,6 @@ header{
 }
 .bi {
     padding: 5px;
-}
-/* link action */
-a {
-    text-decoration: none;
 }
 /* card video */
 .card-video {
