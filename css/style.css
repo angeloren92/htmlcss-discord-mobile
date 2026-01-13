@@ -7,13 +7,37 @@
 /* main sections */
 body {
     max-width: 512px;
-    border: 1px dashed red;
+    background-color: rgb(77, 25, 221);
     margin: 0 auto;
 }
 header{
-    height: 630px;
+    height: 268px;
     background-image: url(../img/banner.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-size: contain;
+}
+/* main box */
+.box {
+    margin: 60px auto;
+    width: 90%;
+    border-radius: 2rem;
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 1.2rem;
+}
+
+/* style content */
+.card-title, .card-text {
+    color: white;
+    text-align: center;
+}
+.box .card-title {
+    padding: 15px;
+    font-family: "sigmar", sans-serif;
+    line-height: 1;
+}
+.box .card-text {
+    padding: 10px 25px;
+    font-family: "DM Sans";
+    line-height: 1.2;
 }
