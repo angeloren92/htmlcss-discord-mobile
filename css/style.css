@@ -20,24 +20,27 @@ header{
 /* main box */
 .box {
     margin: 60px auto;
-    width: 90%;
-    border-radius: 2rem;
+    width: 95%;
+    border-radius: 20px;
     background-color: rgba(255, 0, 0, 0);
-    font-size: 1.2rem;
+    text-align: center;
 }
-
+.box-bgpurple {
+    background-color: rgb(122, 98, 255);
+    text-align: left;
+}
 /* style content */
 .card-title, .card-text {
     color: white;
-    text-align: center;
+    padding: 10px 30px;
 }
 .box .card-title {
-    padding: 15px;
+    font-size: 40px;
     font-family: "sigmar", sans-serif;
     line-height: 1;
 }
 .box .card-text {
-    padding: 10px 25px;
+    font-size: 19px;
     font-family: "DM Sans", sans-serif;
     line-height: 1.2;
 }
@@ -50,7 +53,7 @@ header{
     border-radius: 20px;
     padding: 20px;
     font-family: "DM Sans", sans-serif;
-    font-size: 1.2rem;
+    font-size: 20px;
 }
 .download {
     color: black;
