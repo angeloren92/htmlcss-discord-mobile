@@ -38,6 +38,25 @@ header{
 }
 .box .card-text {
     padding: 10px 25px;
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     line-height: 1.2;
 }
+/* Buttons */
+.butt {
+    display: block;
+    margin: 15px auto;
+    width: 90%;
+    border: 0 none transparent;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.2rem;
+}
+.download {
+
+}
+.browser {
+    background-color: rgb(110, 110, 238);
+    color: white;
+}
+
