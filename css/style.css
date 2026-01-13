@@ -7,7 +7,9 @@
 /* main sections */
 body {
     max-width: 512px;
-    background-color: rgb(77, 25, 221);
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
 }
 header{
@@ -22,12 +24,12 @@ header{
     margin: 60px auto;
     width: 95%;
     border-radius: 20px;
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(91, 92, 202, 0);
     text-align: center;
     
 }
 .box-bgpurple {
-    background-color: rgb(122, 98, 255);
+    background-color: rgba(124, 116, 247, 0.781);
     text-align: left;
     padding-bottom: 80px;
 }
@@ -61,17 +63,34 @@ header{
     color: black;
 }
 .browser {
-    background-color: rgb(110, 110, 238);
+    background-color: rgb(49, 49, 248);
     color: white;
 }
 .bi {
     padding: 5px;
 }
-/* cerd video */
+a {
+    text-decoration: none;
+}
+/* card video */
 .card-video {
     display: block;
     width: 400px;
     height: 300px;
     margin: 0 auto;
     border-radius: 30px;
+}
+/* Cube e Eyes da muovere */
+.cube {
+    height: 100px;
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+.eyes {
+    height: 150px;
+    position: relative;
+    top: -80px;
+    left: 50%;
+    translate: -50%;
 }
