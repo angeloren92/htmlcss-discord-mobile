@@ -31,7 +31,7 @@ header{
 .box-bgpurple {
     background-color: rgba(124, 116, 247, 0.781);
     text-align: left;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 /* style content */
 .card-title, .card-text {
@@ -39,6 +39,7 @@ header{
     padding: 15px 30px;
 }
 .box .card-title {
+    padding-top: 0;
     font-size: 40px;
     font-family: "sigmar", sans-serif;
     line-height: 1;
@@ -69,6 +70,7 @@ header{
 .bi {
     padding: 5px;
 }
+/* link actions */
 a {
     text-decoration: none;
 }
