@@ -10,3 +10,10 @@ body {
     border: 1px dashed red;
     margin: 0 auto;
 }
+header{
+    height: 630px;
+    background-image: url(../img/banner.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
