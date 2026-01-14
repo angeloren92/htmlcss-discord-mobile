@@ -29,6 +29,7 @@ header{
     margin: 60px auto 60px auto;
     width: 95%;
     background-color: rgba(91, 92, 202, 0);
+    border-radius: 20px;
     text-align: center;
 }
 .box-bgpurple {
